@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">quotz</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_app_id">782630525268321</string>
+    <string name="made_with">made with ♥ by:</string>
+    <string name="choose_an_app">Choose an app!</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="skip">skip</string>
+</resources>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kc.androidunsplash:androidunsplash-0.2.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/androidunsplash-0.2.1.aar/fc4ba1064af6e1b251c034c90bf521d0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/androidunsplash-0.2.1.aar/fc4ba1064af6e1b251c034c90bf521d0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kc.androidunsplash/androidunsplash/0.2.1/5076927b0347c9c3c7f9f8803868cf1723519a3a/androidunsplash-0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/quote_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/card_bottom_color"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:id="@+id/quote_picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:tint="@color/black_transparent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black_transparent" />
+
+
+            <io.exera.quotz.CustomFonts.MyTextView
+                android:id="@+id/quote_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/footer"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:maxLines="8"
+                android:padding="30dp"
+                android:textColor="@color/light_text"
+                android:textSize="@dimen/text_quote" />
+
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/card_bottom_color"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <io.exera.quotz.CustomFonts.MyTextView
+                    android:id="@+id/quote_author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="- John Doe"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_quote" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <!--<ImageButton-->
+                    <!--android:id="@+id/more"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:background="@drawable/background_button_round"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:src="@drawable/ic_more" />-->
+
+                    <ImageButton
+                        android:id="@+id/share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/background_button_round"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_share" />
+
+                    <CheckBox
+                        android:id="@+id/like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toLeftOf="@+id/share"
+                        android:layout_toStartOf="@+id/share"
+                        android:background="@drawable/selector_like"
+                        android:button="@null"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="10dp"
+                        android:stateListAnimator="@animator/scale" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/card_bottom_color">
+
+            <FrameLayout
+                android:id="@+id/ad_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/button_skip"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/skip"
+                android:textColor="@color/light_text" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
