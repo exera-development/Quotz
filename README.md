@@ -1,10 +1,10 @@
 
 ![](https://github.com/exera-development/Quotz/blob/master/app/src/main/res/drawable-xxxhdpi/ic_quotz_logo.png?raw=true)
-This is just a demo project made with **Kotlin**
+>This is just a demo project made with **Kotlin**
 ### Features
 
 - You can swipe between more than 1500 quotes
--	Quotes are locally stored, doesn't need internet connection
+-   Quotes are locally stored, doesn't need internet connection
 - Google native ads
 - Realm.io database used for saving favorite quotes
 - Generates quote images which is able to share
