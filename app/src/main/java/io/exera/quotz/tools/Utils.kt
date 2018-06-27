@@ -6,12 +6,12 @@ import android.net.ConnectivityManager
 import android.view.LayoutInflater
 import io.exera.quotz.R
 import io.exera.quotz.database.Quote
-import kotlinx.android.synthetic.main.facebook_post.view.*
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
+import kotlinx.android.synthetic.main.card_view.view.*
 
 
 /**
@@ -35,8 +35,8 @@ fun Context.getQuoteImage(quote: Quote): Bitmap {
     layoutInflater.inflate(R.layout.facebook_post, view, true)
     view.layoutParams = ViewGroup.LayoutParams(800, 800)
     view.quote_picture.setImageDrawable(getGradient())
-    view.quote_text.text = "\"${quote!!.text}\""
-    view.quote_author.text = "- ${quote!!.author}"
+    view.quote_text.text = "\"${quote.text}\""
+    view.quote_author.text = "- ${quote.author}"
 
     view.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
             View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED))

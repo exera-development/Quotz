@@ -43,18 +43,19 @@ fun Context.InitQuotes() {
     }
 }
 
+/**
+ * Returns a random quote JSON object
+ */
 private fun getRandomQuoteJSON(): JSONObject {
     val random = Random()
-
     val number = random.nextInt(1639)
     val quote = quotes!!.getJSONObject(number)
-//    message.text = quote.getString("quoteText")
-//    author.text = "Author\n${quote.getString("quoteAuthor")}"
-//    Log.d("quote", "number: $number")
     return quote
 }
 
-
+/**
+ * Returns a random Quote object
+ */
 fun getQuote(): Quote {
     val quote = Quote()
     val quoteJSON = getRandomQuoteJSON()

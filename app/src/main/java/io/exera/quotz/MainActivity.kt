@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity(), CardInterractionListener {
             quotes.addAll(QuoteDAO.getAll())
         } else {
             for (i in 0..10) {
-                quotes!!.add(getQuote())
+                quotes.add(getQuote())
             }
         }
         adapter = QuotesAdapter(quotes, this@MainActivity, this)
@@ -90,14 +90,14 @@ class MainActivity : AppCompatActivity(), CardInterractionListener {
 
             override fun cardSwipedLeft(stableId: Long) {
                 if (!favorites) {
-                    quotes!!.add(getQuote())
+                    quotes.add(getQuote())
                     adapter!!.notifyDataSetChanged()
                 }
             }
 
             override fun cardSwipedRight(stableId: Long) {
                 if (!favorites) {
-                    quotes!!.add(getQuote())
+                    quotes.add(getQuote())
                     adapter!!.notifyDataSetChanged()
                 }
             }
@@ -106,6 +106,9 @@ class MainActivity : AppCompatActivity(), CardInterractionListener {
         swipe_container.addView(swipeView)
     }
 
+    /**
+     *starts sharing view
+     */
     private fun share(quote: Quote) {
         val image = getQuoteImage(quote)
         try {
