@@ -10,18 +10,21 @@
 - Generates quote images which is able to share
 
 ### Screenshots
+>Main screen
 
 <img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181027.png?raw=true" width="256">
-> Main screen
+
+>Native Google ad
 
 <img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181109.png?raw=true" width="256">
-> Native Google ad
+
+>Generated image for sharing
 
 <img src="https://github.com/exera-development/Quotz/blob/master/screenshots/image.png?raw=true" width="256">
-> Generated image for sharing
+
 
 ## Credits
-Developer - Attila Jánosi
+Developer - **Attila Jánosi**
 
 ## License
 The MIT License (MIT)
