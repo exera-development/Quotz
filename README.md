@@ -1,7 +1,7 @@
-# Quotz
+
 ![](https://github.com/exera-development/Quotz/blob/master/app/src/main/res/drawable-xxxhdpi/ic_quotz_logo.png?raw=true)
 This is just a demo project made with **Kotlin**
-###Features
+### Features
 
 - You can swipe between more than 1500 quotes
 -	Quotes are locally stored, doesn't need internet connection
@@ -9,21 +9,21 @@ This is just a demo project made with **Kotlin**
 - Realm.io database used for saving favorite quotes
 - Generates quote images which is able to share
 
-###Screenshots
+### Screenshots
 
-<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181027.png?raw=true" width="256" title="Main screen">
+<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181027.png?raw=true" width="256">
 > Main screen
 
-<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181109.png?raw=true" width="256" title="Main screen">
+<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/device-2018-06-27-181109.png?raw=true" width="256">
 > Native Google ad
 
-<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/image.png?raw=true" width="256" title="Main screen">
+<img src="https://github.com/exera-development/Quotz/blob/master/screenshots/image.png?raw=true" width="256">
 > Generated image for sharing
 
-##Credits
+## Credits
 Developer - Attila Jánosi
 
-##License
+## License
 The MIT License (MIT)
 
 Copyright (c) 2015 Chris Kibble
