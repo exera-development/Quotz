@@ -4,10 +4,10 @@
 ### Features
 
 - You can swipe between more than 1500 quotes
--   Quotes are locally stored, doesn't need internet connection
+-   Internet connection is not required, quotes are stored locally
 - Google native ads
-- Realm.io database used for saving favorite quotes
-- Generates quote images which is able to share
+- Favorite quotes are saved to [Realm.io](https://realm.io/) database
+- Quotes can be shared as generated images
 
 ### Screenshots
 >Main screen
